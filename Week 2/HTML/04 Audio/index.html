@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio</title>
+  </head>
+  <body>
+    <!-- # 1st way to include audio -->
+
+    <p>Play Date</p>
+    <audio controls loop>
+      <source src="./music/Play Date.mp3" type="audio/mpeg" />
+      <!-- Fallback for browsers that don't support the audio element -->
+      <source src="./music/Play Date.wav" type="audio/wav" />
+    </audio>
+
+    <br />
+
+    <p>Sia - Snowman</p>
+    <audio controls loop>
+      <source src="./music/Sia - Snowman (320 kbps).mp3" type="audio/mpeg" />
+    </audio>
+
+    <br />
+
+    <!-- #2nd way to include audio -->
+
+    <p>The Neighbourhood - Sweater Weather</p>
+    <audio
+      src="./music/The_Neighbourhood_-_Sweater_Weather_@BaseNaija.mp3"
+      controls
+      autoplay
+      muted
+      loop
+    ></audio>
+  </body>
+</html>

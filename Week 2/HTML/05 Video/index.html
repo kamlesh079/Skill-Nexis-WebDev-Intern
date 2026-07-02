@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Videos</title>
+  </head>
+  <body>
+    <!-- # 1st way to include video -->
+    <video
+      src="https://www.pexels.com/download/video/37670295/"
+      width=" 500px"
+      controls
+      autoplay
+      loop
+    ></video>
+
+    <!-- # 2nd way to include video -->
+    <video width="500px" controls autoplay loop>
+      <source
+        src="https://www.pexels.com/download/video/37670295/"
+        type="video/mp4"
+      />
+      <!-- Fallback for browsers that don't support the video element -->
+      <source
+        src="https://www.pexels.com/download/video/37670295/"
+        type="video/webm"
+      />
+    </video>
+
+  </body>
+</html>
