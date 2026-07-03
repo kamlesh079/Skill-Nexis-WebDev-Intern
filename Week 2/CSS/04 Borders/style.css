@@ -1,0 +1,20 @@
+h1 {
+  /* border-style: solid;
+  border-width: 3px;
+  border-color: chocolate; */
+
+  /* Shorthand */
+  border: 3px solid chocolate;
+  border-radius: 10px;
+}
+
+p{
+    border-bottom: 3px solid pink;
+    border-top: 3px solid orange;
+    border-left: 3px solid purple;
+    border-right: 3px solid blue;
+
+    border-radius: 20px;
+
+    padding: 5px;
+}

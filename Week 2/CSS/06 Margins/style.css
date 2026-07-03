@@ -1,0 +1,29 @@
+/* '*' selector is a universal selector */
+*{
+    margin : 0;
+}
+
+.box{
+   border : 2px solid black;
+   font-size: 5em;
+   width: 250px;
+   height: 250px;
+}
+#box1{
+    background-color: lightblue;
+    /* margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 90px;
+    margin-right: 10px; */
+
+    /* margin: 50px 10px 90px 40px;  */
+    /* top right bottom left */
+
+    /* margin-left : auto; */
+
+    margin: 60px;
+}
+#box2{
+    background-color: lightgreen;
+    margin : 20px
+}
