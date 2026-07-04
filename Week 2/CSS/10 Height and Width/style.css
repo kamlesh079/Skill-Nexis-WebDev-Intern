@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+/* box-sizing: border-box = this means that the padding and border will be included in the width and height of the element. This is useful for creating layouts that are more predictable and easier to work with.
+
+*/
+
+.container {
+    height: 100vh;
+    background-color: gray;
+    padding: 10px;
+
+}
+
+.box {
+  border: 2px solid;
+  padding: 25px;
+  height: auto;
+  width: 50%;
+  float: left;
+  text-align: center;
+
+
+  min-height: 50%;
+
+  background-color: orange;
+}
