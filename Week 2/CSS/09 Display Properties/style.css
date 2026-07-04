@@ -1,0 +1,21 @@
+div{
+    background-color: lightcoral;
+    width: 100px;
+    height: 100px;
+
+    /* display: inline; */
+    /* display: inline-block; */
+    /* display: none; */
+    /* visibility: hidden; */
+}
+span{
+    background-color: lightgrey;
+    /* Note: Inline element doesn't support width and height */
+    width: 100px;
+    height: 100px;
+
+    /* display: block; */
+    /* display: inline-block; */
+    /* display: none; */
+    /* visibility: hidden; */
+}
