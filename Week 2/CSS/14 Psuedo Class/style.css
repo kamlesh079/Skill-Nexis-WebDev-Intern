@@ -1,0 +1,54 @@
+
+/* a:link{
+    color: orange;
+}
+
+a:active{
+    color: green;
+}
+
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color: olive;
+} */
+
+
+/* ################### */
+/* li:hover{
+    background-color: #ebeb87de;
+} */
+
+/* li:not(:hover){
+    background-color: pink;
+} */
+
+/* li:nth-child(odd){
+    background-color: #ebeb87de;
+} */
+
+/* li:nth-child(even){
+    background-color: #ebeb87de;
+} */
+
+/* li:nth-child(2n + 1){
+    background-color: #ebeb87de;
+} */
+
+/* ################### */
+
+div{
+    display: inline;
+    padding: 0px;
+}
+
+div p{
+    display: none;
+}
+
+div:hover p{
+    display: block;
+    background-color: yellow;
+}

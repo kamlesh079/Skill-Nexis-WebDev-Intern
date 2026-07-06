@@ -1,0 +1,19 @@
+#container{
+    border: 2px solid black;
+}
+
+/* #container p{
+    background-color: orange;
+} */
+
+/* #container > p{
+    background-color: yellow;
+} */
+
+/* #container ~p{
+    background-color: lightblue;
+} */
+
+#container + p{
+    background-color: lightgreen;
+}
