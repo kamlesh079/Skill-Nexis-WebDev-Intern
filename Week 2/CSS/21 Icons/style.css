@@ -1,0 +1,38 @@
+.icons{
+    text-align: center;
+}
+
+.icons a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.house{
+    color: hsl(0, 0%, 50%);
+}
+.house:hover{
+    color: hsl(0, 0%, 60%);
+}
+
+.youtube{
+    color: red;
+}
+.youtube:hover{
+    color: hsl(0, 100%, 70%);
+}
+
+
+.twitter{
+    color: rgb(0, 187, 255);
+}
+.twitter:hover{
+    color: hsl(196, 100%, 70%);
+}
+
+
+.tiktok{
+    color: rgb(23, 23, 23);
+}
+.tiktok:hover{
+    color: hsl(0, 0%, 30%);
+}
