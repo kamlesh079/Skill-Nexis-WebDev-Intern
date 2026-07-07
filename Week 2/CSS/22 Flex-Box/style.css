@@ -1,0 +1,97 @@
+.container {
+  border: 10px solid black;
+  height: 90vh;
+
+  display: flex;
+
+  /* ### Flex direction Property (default = row) ## */
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse; */
+
+  /* ### Justify-Content Property = along main axis 
+        Default Value ==> flex-start
+  */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+
+  /* ### align-Items Property = along cros axis
+         Default Value = flex-start
+  */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* align-items: baseline;  */ /* align the text with base of other */
+
+  /* ### flex-wrap Property 
+         Default Value - no wrap
+  */
+
+  /* flex-wrap: wrap; */
+  /* align-content: flex-start; */
+  /* align-content: flex-end; */
+  /* align-content: center; */
+  /* align-content: space-around; */
+  /* align-content: space-between; */
+  /* align-content: space-evenly; */
+
+  /* ### gaps ### */
+  /* column-gap: 1em; */
+  /* row-gap: 2em;  */
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  font-size: 8em;
+  text-align: center;
+  border-radius: 15px;
+}
+#box1 {
+  background-color: hsl(0, 100%, 64%);
+
+  /* ### align-self = for individual boxes */
+  /* align-self: start; */
+  /* align-self: center; */
+  /* align-items: end; */
+
+  /*  ### Order(by default each box has order of 0) */
+  /* order : 1 ; */
+
+  /* ### Flex grow - how the extra spaces is shared */
+  /* flex-grow: 1; */
+
+  /*  ### flex-shrink = Controls who shrinks when space is too small. 
+            0 = That item refuses to shrink.
+            1 = Everything shrinks equally.
+    */
+  /* flex-shrink: 0; */
+  /* flex-shrink: 1; */
+
+  /* ### flex-basis = Initial size before grow/shrink. */
+  flex-basis: 200px;
+  /* Start me at 200px, then apply grow or shrink if needed." */
+
+  /* flex: flex-grow flex-shrink flex-basis;
+        A shorthand for three properties:
+        flex: 0 0 300px;
+        Meaning:
+            Don't grow
+            Don't shrink
+            Stay 300px
+  */
+}
+#box2 {
+  background-color: hsl(67, 100%, 64%);
+}
+#box3 {
+  background-color: hsl(128, 91%, 61%);
+}
+#box4 {
+  background-color: hsl(185, 100%, 64%);
+}

@@ -1,0 +1,115 @@
+body {
+  background-color: hsl(0, 1%, 26%);
+}
+
+#box {
+  width: 250px;
+  height: 250px;
+  background-color: hsl(0, 87%, 57%);
+  font-size: 13em;
+  text-align: center;
+
+  animation-name: slide-left;
+  /* animation-name: slide-right; */
+  /* animation-name: slide-up; */
+  /* animation-name: slide-down; */
+  /* animation-name: rotate; */
+  /* animation-name: grow; */
+  /* animation-name: shrink; */
+  /* animation-name: fade; */
+  /* animation-name: color-change; */
+  /* animation-name: glow; */
+
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  /* animation-play-state: paused; */
+
+  /* animation-timing-function: ease-in-out; */
+  animation-timing-function: steps(4);
+}
+
+/* #box:hover {
+  animation-name: glow;
+  animation-duration: 2s;
+} */
+ 
+/* #box:active {
+  animation-name: glow;
+  animation-duration: 2s;
+} */
+
+@keyframes slide-left {
+  from {
+    transform: translateX(100%);
+  }
+}
+@keyframes slide-right {
+  to {
+    transform: translateX(100%);
+  }
+}
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+  }
+}
+@keyframes slide-down {
+  to {
+    transform: translateY(100%);
+  }
+}
+@keyframes rotate {
+  100% {
+    /* transform: rotateX(360deg); */
+    /* transform: rotateY(360deg); */
+    /* transform: rotateZ(360deg); */
+  }
+
+  50% {
+    /* transform: rotateX(360deg); */
+    /* transform: rotateY(360deg); */
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes grow {
+  50% {
+    transform: scale(2, 2);
+  }
+}
+@keyframes shrink {
+  50% {
+    transform: scale(0.5, 0.5);
+  }
+}
+@keyframes fade {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes color-change {
+  0% {
+    background-color: hsl(0, 87%, 57%);
+  }
+  20% {
+    background-color: orange;
+  }
+  40% {
+    background-color: yellow;
+  }
+  60% {
+    background-color: green;
+  }
+  80% {
+    background-color: blue;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+
+@keyframes glow {
+  50% {
+    box-shadow: 0 0 50px yellow;
+  }
+}
