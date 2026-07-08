@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Interactive Photo Gallery</h1>
+        <p>Click any image to view it in full size</p>
+    </header>
+
+    <main class="gallery-container">
+        <!-- 6 Gallery Items -->
+        <div class="gallery-item"><img src="https://picsum.photos/id/10/800/600" alt="Forest Mountains"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/id/16/800/600" alt="Ocean Pier"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/id/28/800/600" alt="Forest Road"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/id/43/800/600" alt="Mist Islands"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/id/48/800/600" alt="Mountain Range"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/id/54/800/600" alt="Mountain Landscapes"></div>
+    </main>
+
+    <!-- Lightbox Overlay Container -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Enlarged view">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
