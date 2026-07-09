@@ -1,2 +1,4 @@
 *.DS_Store
 offer_letter.pdf
+.env
+config.js
