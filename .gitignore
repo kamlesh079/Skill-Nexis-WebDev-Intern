@@ -1,4 +1,6 @@
 *.DS_Store
-offer_letter.pdf
+*.pdf
+*.pages
 .env
 config.js
+node_modules/
